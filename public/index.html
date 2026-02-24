@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lecture Notes AI</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Lecture Notes AI</h1>
+      <p>Upload a lecture video (up to 2GB). The app splits it into chunks, runs AI notes per chunk, then a master AI consolidates final notes.</p>
+
+      <form id="upload-form">
+        <input id="video" name="video" type="file" accept="video/*" required />
+        <button type="submit">Upload & Analyze</button>
+      </form>
+
+      <section>
+        <h2>Status</h2>
+        <pre id="status">Idle</pre>
+      </section>
+
+      <section>
+        <h2>Final Notes</h2>
+        <article id="notes"></article>
+      </section>
+    </main>
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
