@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f6f8fb;
+  color: #1a1a1a;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+}
+
+form {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+button {
+  background: #3b5bdb;
+  color: #fff;
+  border: 0;
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+pre,
+article {
+  background: #f3f6ff;
+  padding: 1rem;
+  border-radius: 8px;
+  white-space: pre-wrap;
+}
